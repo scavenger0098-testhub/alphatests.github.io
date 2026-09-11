@@ -1,0 +1,34 @@
+@font-face{
+	font-family: Andes;
+	src: url("./Fonts/Andes.ttf");
+}
+@font-face{
+	font-family: Bream;
+	src: url("./Fonts/Breamcatcher-Rg.otf");
+}
+@font-face{
+	font-family: Amoria;
+	src: url("./Fonts/AMORIA.otf");
+}
+@font-face{
+	font-family: Umbara;
+	src: url("./Fonts/Umbara.otf");
+}
+/*text stuff*/
+/*headings*/
+h1{ font-family: Andes; font-size: 65px;font-weight: bold; color: white; margin-bottom: -18px;}
+h2{ font-family: Amoria; font-size: 40px;font-weight: bold; color: white; margin-top: 0px; margin-bottom: -10px;}
+/*general body text*/
+body{ font-family: Umbara; font-size: 20px; color: white; background-color: black;}
+/*lists*/
+dt{font-family: Bream; font-size: 25px; color: #CCFFF6;}
+/*links*/
+a:link{color: #75BCFF;}
+a:visited{color: #75BCFF;}
+a:hover{color: ##0FA7FF}
+a:active{color: #006AFF;}
+/*other*/
+hr{border-top: 5px dotted #CCFFF6; border-radius: 3px; margin-bottom: 2em;}
+/*special IDs*/
+#OpenNar {font-family: Bream; font-size: 25px; color: #CCFFF6;}
+#TopBord {border-top: 5px solid #CCFFF6; margin-bottom: 5em;}
