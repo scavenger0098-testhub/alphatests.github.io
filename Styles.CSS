@@ -25,10 +25,72 @@ dt{font-family: Bream; font-size: 25px; color: #CCFFF6;}
 /*links*/
 a:link{color: #75BCFF;}
 a:visited{color: #75BCFF;}
-a:hover{color: ##0FA7FF}
+a:hover{color: #0FA7FF}
 a:active{color: #006AFF;}
 /*other*/
 hr{border-top: 5px dotted #CCFFF6; border-radius: 3px; margin-bottom: 2em;}
 /*special IDs*/
 #OpenNar {font-family: Bream; font-size: 25px; color: #CCFFF6;}
 #TopBord {border-top: 5px solid #CCFFF6; margin-bottom: 5em;}
+#navbar {
+	position: fixed;
+	margin: 0;
+	padding: 0;
+	height: 3em;
+	width: 100%;
+}
+#navbar ul {
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	list-style-type: none;
+	background-color: #006AFF;
+	overflow: visible;
+}
+#navbar ul > li {
+	display: block;
+	float: left;
+	height: 30px;
+	width: 120px;
+}
+#navbar li > a {
+	display: block;
+	padding: 0 0 0 10px;
+	height: 100%;
+	width: 109px;
+	font-size: 22px;
+	text-decoration: none;
+	color: aliceblue;
+}
+#navbar ul ul {
+	margin-top: 2px;
+	display: none;
+	position: static;
+	height: auto;
+	width: 160;
+	border: 4px black solid;
+	background-color: aqua;
+}
+#navbar ul ul li {
+	position: relative;
+	float: none;
+	display: block;
+	height: 28px;
+	width: 100%;
+	border: none;
+}
+#navbar ul ul li > a {
+	height: 100%;
+	width: 96%;
+	padding: 0 0 0 4%;
+	line-height: 28px;
+}
+#navbar li:hover > a {
+	color:azure;
+	background-color: #006AFF;
+}
+#navbar li:hover > ul {
+	display: block;
+}
